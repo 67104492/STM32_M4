@@ -1,0 +1,327 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.1.11101/W32 for ARM                03/Jun/2016  10:55:11
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  E:\WYY\STM32_M4\Project\IAR\SRAM\Exe\STM32_M4.out
+#    Map file     =  E:\WYY\STM32_M4\Project\IAR\SRAM\List\STM32_M4.map
+#    Command line =  
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\main.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\misc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\OLED.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\startup_stm32f40_41xxx.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_adc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_can.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_cec.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_crc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_cryp.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_cryp_aes.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_cryp_des.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_cryp_tdes.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dac.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dbgmcu.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dcmi.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dma.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dma2d.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_dsi.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_exti.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_flash.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_flash_ramfunc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_fmpi2c.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_fsmc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_gpio.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_hash.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_hash_md5.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_hash_sha1.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_i2c.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_it.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_iwdg.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_lptim.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_ltdc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_pwr.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_qspi.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_rcc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_rng.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_rtc.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_sai.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_sdio.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_spdifrx.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_spi.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_syscfg.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_tim.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_usart.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\stm32f4xx_wwdg.o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Obj\system_stm32f4xx.o -o
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\Exe\STM32_M4.out --map
+#        E:\WYY\STM32_M4\Project\IAR\SRAM\List\STM32_M4.map --config
+#        E:\WYY\STM32_M4\Project\IAR\stm32f4xx_sram.icf --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x20000000 { ro section .intvec };
+"P1":  place in [from 0x20000000 to 0x2001ffff] { ro };
+"P2":  place in [from 0x20002000 to 0x2002ffff] { rw, block CSTACK, block HEAP };
+
+  Section          Kind        Address   Size  Object
+  -------          ----        -------   ----  ------
+"A1":                                   0x188
+  .intvec          ro code  0x20000000  0x188  startup_stm32f40_41xxx.o [1]
+                          - 0x20000188  0x188
+
+"P1":                                   0xaa0
+  .text            ro code  0x20000188  0x358  OLED.o [1]
+  .text            ro code  0x200004e0   0x24  stm32f4xx_rcc.o [1]
+  .text            ro code  0x20000504   0xac  stm32f4xx_gpio.o [1]
+  .rodata          const    0x200005b0  0x284  OLED.o [1]
+  .text            ro code  0x20000834  0x154  system_stm32f4xx.o [1]
+  .text            ro code  0x20000988   0x40  zero_init3.o [5]
+  .text            ro code  0x200009c8   0x28  data_init.o [5]
+  .rodata          const    0x200009f0   0x24  main.o [1]
+  .text            ro code  0x20000a14   0x24  main.o [1]
+  .text            ro code  0x20000a38   0x22  fpinit_M.o [4]
+  .iar.init_table  const    0x20000a5c   0x10  - Linker created -
+  .text            ro code  0x20000a6c   0x12  stm32f4xx_it.o [1]
+  .text            ro code  0x20000a80   0x1a  cmain.o [5]
+  .text            ro code  0x20000a9a    0x4  low_level_init.o [3]
+  .text            ro code  0x20000a9e    0x4  exit.o [3]
+  .text            ro code  0x20000aa4    0xa  cexit.o [5]
+  .text            ro code  0x20000ab0   0x14  exit.o [6]
+  .text            ro code  0x20000ac4   0x10  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ad4    0xc  cstartup_M.o [5]
+  .text            ro code  0x20000ae0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ae4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ae8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000aec    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000af0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000af4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000af8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000afc    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b00    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b04    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b08    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b0c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b10    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b14    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b18    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b1c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b20    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b24    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b28    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b2c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b30    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b34    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b38    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b3c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b40    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b44    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b48    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b4c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b50    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b54    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b58    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b5c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b60    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b64    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b68    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b6c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b70    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b74    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b78    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b7c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b80    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b84    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b88    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b8c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b90    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b94    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b98    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000b9c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ba0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ba4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000ba8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bac    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bb0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bb4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bb8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bbc    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bc0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bc4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bc8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bcc    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bd0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bd4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bd8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bdc    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000be0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000be4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000be8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bec    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bf0    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bf4    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bf8    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000bfc    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c00    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c04    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c08    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c0c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c10    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c14    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c18    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c1c    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c20    0x4  startup_stm32f40_41xxx.o [1]
+  .text            ro code  0x20000c24    0x4  startup_stm32f40_41xxx.o [1]
+  .rodata          const    0x20000c28    0x0  zero_init3.o [5]
+                          - 0x20000c28  0xaa0
+
+"P2", part 1 of 2:                      0x420
+  .bss             zero     0x20002000  0x420  OLED.o [1]
+                          - 0x20002420  0x420
+
+"P2", part 2 of 2:                      0x400
+  CSTACK                    0x20002420  0x400  <Block>
+    CSTACK         uninit   0x20002420  0x400  <Block tail>
+                          - 0x20002820  0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x420:
+          0x20002000  0x420
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+E:\WYY\STM32_M4\Project\IAR\SRAM\Obj: [1]
+    OLED.o                        856      644    1 056
+    main.o                         36       36
+    startup_stm32f40_41xxx.o      736
+    stm32f4xx_gpio.o              172
+    stm32f4xx_it.o                 18
+    stm32f4xx_rcc.o                36
+    system_stm32f4xx.o            340
+    ---------------------------------------------------
+    Total:                      2 194      680    1 056
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                          4
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                          8
+
+m7M_tls.a: [4]
+    fpinit_M.o                     34
+    ---------------------------------------------------
+    Total:                         34
+
+rt7M_tl.a: [5]
+    cexit.o                        10
+    cmain.o                        26
+    cstartup_M.o                   12
+    data_init.o                    40
+    zero_init3.o                   64
+    ---------------------------------------------------
+    Total:                        152
+
+shb_l.a: [6]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                            6        2
+    Linker created                          16    1 024
+-------------------------------------------------------
+    Grand Total:                2 414      698    2 080
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x20000a5c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x20000a6c          --   Gb  - Linker created -
+?main                   0x20000a81         Code  Gb  cmain.o [5]
+BusFault_Handler        0x20000a73    0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x20002420          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002820          --   Gb  - Linker created -
+DebugMon_Handler        0x20000a79    0x2  Code  Gb  stm32f4xx_it.o [1]
+F7x8                    0x200005b0  0x284  Data  Gb  OLED.o [1]
+GPIO_Init               0x20000505   0xa4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits          0x200005ad    0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits            0x200005a9    0x4  Code  Gb  stm32f4xx_gpio.o [1]
+HardFault_Handler       0x20000a6f    0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler       0x20000a71    0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x20000a6d    0x2  Code  Gb  stm32f4xx_it.o [1]
+OELD_Init               0x2000043b   0x96  Code  Gb  OLED.o [1]
+OLED_Clear              0x2000036b   0x30  Code  Gb  OLED.o [1]
+OLED_F7x8Str            0x2000039b   0xa0  Code  Gb  OLED.o [1]
+OLED_GPIO_Init          0x20000189   0x68  Code  Gb  OLED.o [1]
+OLED_GRAM               0x20002000  0x420  Data  Gb  OLED.o [1]
+OLED_Refresh_Gram       0x20000327   0x44  Code  Gb  OLED.o [1]
+OLED_WrCmd              0x2000028d   0x9a  Code  Gb  OLED.o [1]
+OLED_WrDat              0x200001f1   0x9a  Code  Gb  OLED.o [1]
+PendSV_Handler          0x20000a7b    0x2  Code  Gb  stm32f4xx_it.o [1]
+RCC_AHB1PeriphClockCmd  0x200004e1   0x20  Code  Gb  stm32f4xx_rcc.o [1]
+Region$$Table$$Base     0x20000a5c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x20000a6c          --   Gb  - Linker created -
+SVC_Handler             0x20000a77    0x2  Code  Gb  stm32f4xx_it.o [1]
+SetSysClock             0x20000887   0xce  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Handler         0x20000a7d    0x2  Code  Gb  stm32f4xx_it.o [1]
+SystemInit              0x20000835   0x52  Code  Gb  system_stm32f4xx.o [1]
+UsageFault_Handler      0x20000a75    0x2  Code  Gb  stm32f4xx_it.o [1]
+__cmain                 0x20000a81         Code  Gb  cmain.o [5]
+__exit                  0x20000ab1   0x14  Code  Gb  exit.o [6]
+__iar_data_init3        0x200009c9   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x20000a39         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x20000ad5         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x20000989   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x20000a9b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x20000000         Data  Gb  startup_stm32f40_41xxx.o [1]
+_call_main              0x20000a8d         Code  Gb  cmain.o [5]
+_exit                   0x20000aa5         Code  Gb  cexit.o [5]
+_main                   0x20000a97         Code  Gb  cmain.o [5]
+exit                    0x20000a9f    0x4  Code  Gb  exit.o [3]
+main                    0x20000a15   0x24  Code  Gb  main.o [1]
+
+
+[1] = E:\WYY\STM32_M4\Project\IAR\SRAM\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  2 414 bytes of readonly  code memory
+    698 bytes of readonly  data memory
+  2 080 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
